@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=C:\Users\Harry\Desktop\MCU_homework\hw3_LED\Drivers\CMSIS\Core\Include;C:\Users\Harry\Desktop\MCU_homework\hw3_LED\Drivers\CMSIS\DSP\Include;C:\Users\Harry\Desktop\MCU_homework\hw3_LED\LED\Inc;C:\Program Files\Polyspace\R2020a\simulink\include;
+[Groups]
+MATLAB=C:\Users\Harry\Desktop\MCU_homework\hw3_LED\LED\Src\LED.c;
+[Others]
+Define=MEM_UNIT_BYTES;ARM_MATH_CM3;MemUnit_T:uint8_T;MATLAB_PROJECT;

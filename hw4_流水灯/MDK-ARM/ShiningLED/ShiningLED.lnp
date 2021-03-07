@@ -1,0 +1,25 @@
+--diag_suppress=L6329 --library_type=microlib --cpu=Cortex-M3 --lto --scatter "c:/Users/Harry/Desktop/MCU_homework/作业4_流水灯/MDK-ARM/ShiningLED/ShiningLED.sct" --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list ./MDK-ARM/ShiningLED/ShiningLED.map
+./MDK-ARM/ShiningLED/stm32f1xx_hal.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_cortex.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_dma.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_exti.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_flash.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_flash_ex.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_gpio.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_gpio_ex.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_pwr.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_rcc.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_rcc_ex.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_tim.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_tim_ex.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_uart.o
+./MDK-ARM/ShiningLED/gpio.o
+./MDK-ARM/ShiningLED/led.o
+./MDK-ARM/ShiningLED/log.o
+./MDK-ARM/ShiningLED/main.o
+./MDK-ARM/ShiningLED/stm32f1xx_hal_msp.o
+./MDK-ARM/ShiningLED/stm32f1xx_it.o
+./MDK-ARM/ShiningLED/system_stm32f1xx.o
+./MDK-ARM/ShiningLED/usart.o
+./MDK-ARM/ShiningLED/startup_stm32f107xc.o -o ./MDK-ARM/ShiningLED/ShiningLED.axf
