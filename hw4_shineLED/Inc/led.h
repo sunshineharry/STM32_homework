@@ -3,6 +3,6 @@
 
 #include "main.h"
 #include "stm32f1xx_hal.h"
-void shine_led(uint8_t delay_time);
+void shine_led(uint16_t delay_time);
 
 #endif

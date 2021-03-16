@@ -1,0 +1,21 @@
+--diag_suppress=L6329 --library_type=microlib --cpu=Cortex-M3 --lto --scatter "c:/Users/Harry/Desktop/MCU_homework/hw4_shineLED/build/hw4_shineLED/hw4_shineLED.sct" --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list ./build/hw4_shineLED/hw4_shineLED.map
+./build/hw4_shineLED/stm32f1xx_hal.o
+./build/hw4_shineLED/stm32f1xx_hal_cortex.o
+./build/hw4_shineLED/stm32f1xx_hal_dma.o
+./build/hw4_shineLED/stm32f1xx_hal_flash.o
+./build/hw4_shineLED/stm32f1xx_hal_flash_ex.o
+./build/hw4_shineLED/stm32f1xx_hal_gpio.o
+./build/hw4_shineLED/stm32f1xx_hal_gpio_ex.o
+./build/hw4_shineLED/stm32f1xx_hal_pwr.o
+./build/hw4_shineLED/stm32f1xx_hal_rcc.o
+./build/hw4_shineLED/stm32f1xx_hal_rcc_ex.o
+./build/hw4_shineLED/stm32f1xx_hal_tim.o
+./build/hw4_shineLED/stm32f1xx_hal_tim_ex.o
+./build/hw4_shineLED/gpio.o
+./build/hw4_shineLED/led.o
+./build/hw4_shineLED/main.o
+./build/hw4_shineLED/stm32f1xx_hal_msp.o
+./build/hw4_shineLED/stm32f1xx_it.o
+./build/hw4_shineLED/system_stm32f1xx.o
+./build/hw4_shineLED/startup_stm32f107xc.o -o ./build/hw4_shineLED/hw4_shineLED.axf

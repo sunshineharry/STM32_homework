@@ -1,0 +1,4 @@
+objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\hw4_shineLED\build\hw4_shineLED\hw4_shineLED.bin" "c:\Users\Harry\Desktop\MCU_homework\hw4_shineLED\build\hw4_shineLED\hw4_shineLED.axf" "c:\Users\Harry\Desktop\MCU_homework\hw4_shineLED\build\hw4_shineLED\hw4_shineLED.elf"
+
+objcopy.exe: c:\Users\Harry\Desktop\MCU_homework\hw4_shineLED\build\hw4_shineLED\hw4_shineLED.elf: warning: allocated section `RW_IRAM1' not in segment
+
