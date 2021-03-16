@@ -1,3 +1,0 @@
-config load "C:\Users\Harry\Desktop\MCU_homework\hw3_LED\ShiningLED.ioc"
-project generate ui
-exit wait

@@ -1,0 +1,28 @@
+test_led/test_led.o: \
+  C:\Users\Harry\Desktop\MCU_homework\TEST_LED\TEST_LED\Src\TEST_LED.c \
+  ..\TEST_LED\Inc\TEST_LED.h ..\TEST_LED\Inc\STM32_Config.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103x6.h \
+  ..\Drivers\CMSIS\Include\core_cm3.h \
+  C:\Portable\Keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\Drivers\CMSIS\Include\core_cmInstr.h \
+  ..\Drivers\CMSIS\Include\cmsis_armcc_V6.h \
+  ..\Drivers\CMSIS\Include\core_cmFunc.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
+  ..\Inc\stm32f1xx_hal_conf.h ..\Inc\main.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h \
+  C:\Portable\Keil\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h \
+  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h ..\Inc\main.h \
+  ..\TEST_LED\Inc\rtwtypes.h \
+  ..\TEST_LED\Inc\TEST_LED_External_Functions.h \
+  ..\TEST_LED\Inc\TEST_LED_types.h ..\TEST_LED\Inc\TEST_LED_private.h
