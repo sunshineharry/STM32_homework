@@ -2,7 +2,7 @@
 #include "led.h"
 #include "delay.h"
 
-void LED_Init(void)
+static void init(void* self)
 {
     GPIO_InitTypeDef GPIO_InitStructure;
 
@@ -16,7 +16,7 @@ void LED_Init(void)
     GPIO_Init(LED_GPIO_Port,&GPIO_InitStructure);
 }
 
-void LED_Shine(void)
+static void shine(void* self)
 {
     delay();
     switch (m_nDelayNum)
@@ -54,3 +54,8 @@ void LED_Shine(void)
 
     }
 }
+
+CTOR(LED)
+    FUNCTION_SETTING(init, init)
+    FUNCTION_SETTING(shine, shine)
+END_CTOR

@@ -6,7 +6,10 @@
     ],
     "settings": {
         "files.associations": {
-            ".eideignore": "ignore"
+            "*.c": "c",
+            "*.C": "c",
+            ".eideignore": "ignore",
+            "led.h": "c"
         },
         "C_Cpp.default.intelliSenseMode": "gcc-arm",
         "files.autoGuessEncoding": true,

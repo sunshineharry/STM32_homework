@@ -30,3 +30,6 @@
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\build\Target 1\main.o: .\user\delay.h
 .\build\Target 1\main.o: .\user\led.h
+.\build\Target 1\main.o: .\user\lw_oopc.h
+.\build\Target 1\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\build\Target 1\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stddef.h

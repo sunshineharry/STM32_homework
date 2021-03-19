@@ -4,9 +4,10 @@
 
 int main(void)
 {
-    LED_Init();
+    LED* led = (LED*)LED_new();
+    led->init(led);
     while(1)
     {
-        LED_Shine();
+        led->shine(led);
     }
 }

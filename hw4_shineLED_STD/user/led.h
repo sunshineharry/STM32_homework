@@ -2,6 +2,8 @@
 #define __LED_H__
 
 #include "stm32f10x_conf.h"
+#include "lw_oopc.h"
+
 // 定义引脚
 #define LED1_Pin GPIO_Pin_2
 #define LED2_Pin GPIO_Pin_3
@@ -9,8 +11,11 @@
 #define LED4_Pin GPIO_Pin_7
 #define LED_GPIO_Port GPIOD
 
-// 函数声明
-void LED_Init(void);
-void LED_Shine(void);
+CLASS(LED)
+{
+    void(*init)(void*);
+    void(*shine)(void*);
+};
+
 
 #endif
