@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"hw3_1_led\startup_stm32f103xe.o"
+"hw3_1_led\main.o"
+"hw3_1_led\gpio.o"
+"hw3_1_led\stm32f1xx_it.o"
+"hw3_1_led\stm32f1xx_hal_msp.o"
+"hw3_1_led\stm32f1xx_hal_gpio_ex.o"
+"hw3_1_led\stm32f1xx_hal_tim.o"
+"hw3_1_led\stm32f1xx_hal_tim_ex.o"
+"hw3_1_led\stm32f1xx_hal.o"
+"hw3_1_led\stm32f1xx_hal_rcc.o"
+"hw3_1_led\stm32f1xx_hal_rcc_ex.o"
+"hw3_1_led\stm32f1xx_hal_gpio.o"
+"hw3_1_led\stm32f1xx_hal_dma.o"
+"hw3_1_led\stm32f1xx_hal_cortex.o"
+"hw3_1_led\stm32f1xx_hal_pwr.o"
+"hw3_1_led\stm32f1xx_hal_flash.o"
+"hw3_1_led\stm32f1xx_hal_flash_ex.o"
+"hw3_1_led\system_stm32f1xx.o"
+"hw3_1_led\hw3_1_led.o"
+--library_type=microlib --strict --scatter "hw3_1_LED\hw3_1_LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "hw3_1_LED.map" -o hw3_1_LED\hw3_1_LED.axf

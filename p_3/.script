@@ -1,3 +1,0 @@
-config load "C:\Users\Harry\Desktop\MCU_homework\p_3\TEST_LED.ioc"
-project generate ui
-exit wait

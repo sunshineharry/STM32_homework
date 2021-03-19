@@ -1,0 +1,3 @@
+objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\Ä£°å\Template\user\build\Target 1\user.bin" "c:\Users\Harry\Desktop\MCU_homework\Ä£°å\Template\user\build\Target 1\user.axf" "c:\Users\Harry\Desktop\MCU_homework\Ä£°å\Template\user\build\Target 1\user.elf"
+
+

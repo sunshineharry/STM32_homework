@@ -1,0 +1,11 @@
+--cpu Cortex-M3 --library_type=microlib --scatter "c:/Users/Harry/Desktop/MCU_homework/Ä£°å/Template/user/build/Target 1/user.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list ".\build\Target 1\user.map"
+".\build\Target 1\core_cm3.o"
+".\build\Target 1\misc.o"
+".\build\Target 1\stm32f10x_gpio.o"
+".\build\Target 1\stm32f10x_rcc.o"
+".\build\Target 1\stm32f10x_tim.o"
+".\build\Target 1\main.o"
+".\build\Target 1\stm32f10x_it.o"
+".\build\Target 1\system_stm32f10x.o"
+".\build\Target 1\startup_stm32f10x_cl.o" -o ".\build\Target 1\user.axf"
