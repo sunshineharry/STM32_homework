@@ -28,3 +28,5 @@
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\build\Target 1\main.o: .\user\delay.h
+.\build\Target 1\main.o: .\user\led.h

@@ -5,12 +5,14 @@
             "cwd": "${workspaceRoot}",
             "type": "cortex-debug",
             "request": "launch",
-            "name": "jlink",
-            "servertype": "jlink",
-            "interface": "swd",
+            "name": "stlink",
+            "servertype": "openocd",
             "executable": ".\\build\\Target 1\\Template_EIDE.elf",
             "runToMain": true,
-            "device": "STM32F103C8"
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ]
         }
     ]
 }

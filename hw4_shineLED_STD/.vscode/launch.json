@@ -22,7 +22,7 @@
             "runToMain": true,
             "configFiles": [
                 "interface/stlink.cfg",
-                "target/<target-name>.cfg"
+                "target/stm32f1x.cfg"
             ]
         }
     ]
