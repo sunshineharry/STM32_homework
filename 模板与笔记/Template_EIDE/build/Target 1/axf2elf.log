@@ -1,3 +1,3 @@
-objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\模板\Template_EIDE\build\Target 1\Template_EIDE.bin" "c:\Users\Harry\Desktop\MCU_homework\模板\Template_EIDE\build\Target 1\Template_EIDE.axf" "c:\Users\Harry\Desktop\MCU_homework\模板\Template_EIDE\build\Target 1\Template_EIDE.elf"
+objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_EIDE\build\Target 1\Template_EIDE.bin" "c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_EIDE\build\Target 1\Template_EIDE.axf" "c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_EIDE\build\Target 1\Template_EIDE.elf"
 
 

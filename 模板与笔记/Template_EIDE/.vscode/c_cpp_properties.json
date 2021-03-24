@@ -6,8 +6,9 @@
                 "${default}",
                 ".\\Libraries\\STM32F10x_StdPeriph_Driver\\inc",
                 ".\\Libraries\\CMSIS\\CM3\\CoreSupport",
-                ".\\user",
+                ".\\user\\inc",
                 ".\\Libraries\\CMSIS\\CM3\\DeviceSupport\\ST\\STM32F10x",
+                ".\\user\\src",
                 ".\\.eide\\deps",
                 ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include",
                 ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include\\rw"

@@ -1,11 +1,11 @@
-.\build\Target 1\main.o: .\user\main.c
-.\build\Target 1\main.o: .\user\stm32f10x_conf.h
+.\build\Target 1\main.o: .\user\src\main.c
+.\build\Target 1\main.o: .\user\inc\stm32f10x_conf.h
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
 .\build\Target 1\main.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\build\Target 1\main.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
 .\build\Target 1\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\build\Target 1\main.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
-.\build\Target 1\main.o: .\user\stm32f10x_conf.h
+.\build\Target 1\main.o: .\user\inc\stm32f10x_conf.h
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
 .\build\Target 1\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h

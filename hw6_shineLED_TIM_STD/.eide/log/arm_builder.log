@@ -1,0 +1,28 @@
+[2021-03-24 00:17:54]	[done]
+	build successfully !
+
+[2021-03-24 01:07:38]	[done]
+	build successfully !
+
+[2021-03-24 01:10:44]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\hw6_shineLED_TIM_STD\user\src\main.c", exit code: 1
+   在 unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds, List`1 doneList)
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-03-24 01:11:03]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\hw6_shineLED_TIM_STD\user\src\main.c", exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-03-24 10:43:50]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\hw6_shineLED_TIM_STD\user\src\led.c", exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-03-24 10:44:49]	[done]
+	build successfully !
+
+[2021-03-24 10:45:08]	[done]
+	build successfully !
+
+[2021-03-24 10:45:31]	[done]
+	build successfully !
+
+[2021-03-24 10:49:35]	[done]
+	build successfully !
+
