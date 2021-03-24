@@ -1,3 +1,4 @@
 objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\hw6_shineLED_TIM_STD\build\Target 1\hw6_shineLED_TIM_STD.bin" "c:\Users\Harry\Desktop\MCU_homework\hw6_shineLED_TIM_STD\build\Target 1\hw6_shineLED_TIM_STD.axf" "c:\Users\Harry\Desktop\MCU_homework\hw6_shineLED_TIM_STD\build\Target 1\hw6_shineLED_TIM_STD.elf"
 
+objcopy.exe: c:\Users\Harry\Desktop\MCU_homework\hw6_shineLED_TIM_STD\build\Target 1\hw6_shineLED_TIM_STD.elf: warning: allocated section `RW_IRAM1' not in segment
 

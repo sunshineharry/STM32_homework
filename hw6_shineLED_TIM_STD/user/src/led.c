@@ -2,7 +2,7 @@
 #include "led.h"
 
 
-static void init(void* self)
+void led_init(void)
 {
     GPIO_InitTypeDef GPIO_InitStructure;
 
@@ -16,7 +16,7 @@ static void init(void* self)
     GPIO_Init(LED_GPIO_Port,&GPIO_InitStructure);
 }
 
-static void shine(void* self)
+void led_shine(void)
 {
     switch (LED_switch)
     {
@@ -54,7 +54,3 @@ static void shine(void* self)
     }
 }
 
-CTOR(LED)
-    FUNCTION_SETTING(init, init)
-    FUNCTION_SETTING(shine, shine)
-END_CTOR

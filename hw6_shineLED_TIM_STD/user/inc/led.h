@@ -2,7 +2,6 @@
 #define __LED_H__
 
 #include "stm32f10x_conf.h"
-#include "lw_oopc.h"
 #include "timer.h"
 
 // 定义引脚
@@ -12,11 +11,8 @@
 #define LED4_Pin GPIO_Pin_7
 #define LED_GPIO_Port GPIOD
 
-CLASS(LED)
-{
-    void(*init)(void*);
-    void(*shine)(void*);
-};
+void led_init(void);
+void led_shine(void);
 
 
 #endif

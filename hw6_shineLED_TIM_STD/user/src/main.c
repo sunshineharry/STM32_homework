@@ -1,19 +1,11 @@
-void init(void)
-{
-
-}
-
-void loop(void)
-{
-    
-}
-
+#include "main.h"
 
 int main(void)
 {
-    init();
+    TIM2_Init(2500,7200);
+    led_init();
     while(1)
     {
-        loop();
+        led_shine();
     }
 }

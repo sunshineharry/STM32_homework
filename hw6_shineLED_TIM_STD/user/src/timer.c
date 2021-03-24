@@ -23,7 +23,7 @@ void _NVIC_TIM2_configuration(void)
 /**
   * @brief  定时器2初始化，中断周期 Tout=(arrv*pscv)/Tclk 。
   *         其中Tclk为定时器输入时钟频率，通常，Tclk=72MHz
-  * @param  pscv TIM_Prescaler，预分频寄存器
+  * @param  pscv TIM_Prescaler+1，预分频寄存器的值+1  【注】定时器内部会自动加一
   * @param  arrv TIM_Period寄存器    
   * @retval None
   */
@@ -50,12 +50,13 @@ void TIM2_Init(u32 pscv, u32 arrv)
   * @param  None
   * @retval None
   */
-void TIM2_IQRHandler(void)
+void TIM2_IRQHandler(void)
 {
     if (TIM_GetITStatus(TIM2,TIM_IT_Update) != RESET)           // 判断是否进入中断
     {
         TIM_ClearITPendingBit(TIM2,TIM_IT_Update);              // 清除中断标志位
-        LED_switch++;                                           // 每中断一次，LED_switch加一，这个量控制是哪个LED灯点亮
+        LED_switch++;                                          
+         // 每中断一次，LED_switch加一，这个量控制是哪个LED灯点亮
         if (LED_switch==4)
             LED_switch = 0;
     }
