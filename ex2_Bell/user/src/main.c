@@ -1,6 +1,17 @@
-#include "stm32f10x_conf.h"
+#include "main.h"
+
+void init(void)
+{
+    SysTick_Init();
+    LED_Init();
+    BEEP_Init();
+}
 
 int main(void)
 {
-    while(1);
+    init();
+    while(1)
+    {
+        LED_WaterLamp(0);
+    }
 }
