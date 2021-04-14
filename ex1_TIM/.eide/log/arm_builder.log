@@ -1,0 +1,20 @@
+[2021-04-06 09:35:28]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\user\src\beep.c", exit code: 1
+   在 unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds, List`1 doneList)
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-06 09:36:09]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\user\src\led.c", exit code: 1
+   在 unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds, List`1 doneList)
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-06 09:36:39]	[done]
+	build successfully !
+
+[2021-04-06 09:46:19]	[done]
+	build successfully !
+
+[2021-04-06 09:48:07]	[done]
+	build successfully !
+
+[2021-04-07 11:46:38]	[done]
+	build successfully !
+
