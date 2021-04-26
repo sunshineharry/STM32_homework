@@ -22,3 +22,9 @@
 [2021-04-26 14:46:55]	[done]
 	build successfully !
 
+[2021-04-26 15:00:07]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_ucosii_EIDE\USER\src\main.c", exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-26 15:00:57]	[done]
+	build successfully !
+

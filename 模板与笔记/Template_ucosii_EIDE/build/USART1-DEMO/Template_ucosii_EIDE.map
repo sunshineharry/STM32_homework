@@ -307,6 +307,7 @@ Section Cross References
     log.o(i.fputc) refers to stm32f10x_usart.o(i.USART_GetFlagStatus) for USART_GetFlagStatus
     main.o(i.SysTick_init) refers to system_stm32f10x.o(.data) for SystemCoreClock
     main.o(i.main) refers to os_core.o(i.OSInit) for OSInit
+    main.o(i.main) refers to log.o(i.USART1_Config) for USART1_Config
     main.o(i.main) refers to os_task.o(i.OSTaskCreate) for OSTaskCreate
     main.o(i.main) refers to os_core.o(i.OSStart) for OSStart
     main.o(i.main) refers to main.o(.bss) for START_TASK_STK
@@ -1318,10 +1319,10 @@ Image Symbol Table
     _printf_core                             0x08001477   Thumb Code    34  printfb.o(i._printf_core)
     i.fputc                                  0x08001498   Section        0  log.o(i.fputc)
     i.main                                   0x080014bc   Section        0  main.o(i.main)
-    i.print_task                             0x080014dc   Section        0  main.o(i.print_task)
-    i.start_task                             0x080014fc   Section        0  main.o(i.start_task)
-    .constdata                               0x08001530   Section       94  os_dbg.o(.constdata)
-    .constdata                               0x0800158e   Section      256  os_core.o(.constdata)
+    i.print_task                             0x080014e0   Section        0  main.o(i.print_task)
+    i.start_task                             0x08001500   Section        0  main.o(i.start_task)
+    .constdata                               0x08001534   Section       94  os_dbg.o(.constdata)
+    .constdata                               0x08001592   Section      256  os_core.o(.constdata)
     .data                                    0x20000000   Section       20  system_stm32f10x.o(.data)
     .data                                    0x20000014   Section       20  stm32f10x_rcc.o(.data)
     APBAHBPrescTable                         0x20000014   Data          16  stm32f10x_rcc.o(.data)
@@ -1481,57 +1482,57 @@ Image Symbol Table
     __scatterload_null                       0x08001467   Thumb Code     2  handlers.o(i.__scatterload_null)
     __scatterload_zeroinit                   0x08001469   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
     fputc                                    0x08001499   Thumb Code    32  log.o(i.fputc)
-    main                                     0x080014bd   Thumb Code    24  main.o(i.main)
-    print_task                               0x080014dd   Thumb Code    20  main.o(i.print_task)
-    start_task                               0x080014fd   Thumb Code    44  main.o(i.start_task)
-    OSDebugEn                                0x08001530   Data           2  os_dbg.o(.constdata)
-    OSEndiannessTest                         0x08001534   Data           4  os_dbg.o(.constdata)
-    OSEventMax                               0x08001538   Data           2  os_dbg.o(.constdata)
-    OSEventNameSize                          0x0800153a   Data           2  os_dbg.o(.constdata)
-    OSEventEn                                0x0800153c   Data           2  os_dbg.o(.constdata)
-    OSEventSize                              0x0800153e   Data           2  os_dbg.o(.constdata)
-    OSEventTblSize                           0x08001540   Data           2  os_dbg.o(.constdata)
-    OSFlagEn                                 0x08001542   Data           2  os_dbg.o(.constdata)
-    OSFlagGrpSize                            0x08001544   Data           2  os_dbg.o(.constdata)
-    OSFlagNodeSize                           0x08001546   Data           2  os_dbg.o(.constdata)
-    OSFlagWidth                              0x08001548   Data           2  os_dbg.o(.constdata)
-    OSFlagMax                                0x0800154a   Data           2  os_dbg.o(.constdata)
-    OSFlagNameSize                           0x0800154c   Data           2  os_dbg.o(.constdata)
-    OSLowestPrio                             0x0800154e   Data           2  os_dbg.o(.constdata)
-    OSMboxEn                                 0x08001550   Data           2  os_dbg.o(.constdata)
-    OSMemEn                                  0x08001552   Data           2  os_dbg.o(.constdata)
-    OSMemMax                                 0x08001554   Data           2  os_dbg.o(.constdata)
-    OSMemNameSize                            0x08001556   Data           2  os_dbg.o(.constdata)
-    OSMemSize                                0x08001558   Data           2  os_dbg.o(.constdata)
-    OSMemTblSize                             0x0800155a   Data           2  os_dbg.o(.constdata)
-    OSMutexEn                                0x0800155c   Data           2  os_dbg.o(.constdata)
-    OSPtrSize                                0x0800155e   Data           2  os_dbg.o(.constdata)
-    OSQEn                                    0x08001560   Data           2  os_dbg.o(.constdata)
-    OSQMax                                   0x08001562   Data           2  os_dbg.o(.constdata)
-    OSQSize                                  0x08001564   Data           2  os_dbg.o(.constdata)
-    OSRdyTblSize                             0x08001566   Data           2  os_dbg.o(.constdata)
-    OSSemEn                                  0x08001568   Data           2  os_dbg.o(.constdata)
-    OSStkWidth                               0x0800156a   Data           2  os_dbg.o(.constdata)
-    OSTaskCreateEn                           0x0800156c   Data           2  os_dbg.o(.constdata)
-    OSTaskCreateExtEn                        0x0800156e   Data           2  os_dbg.o(.constdata)
-    OSTaskDelEn                              0x08001570   Data           2  os_dbg.o(.constdata)
-    OSTaskIdleStkSize                        0x08001572   Data           2  os_dbg.o(.constdata)
-    OSTaskProfileEn                          0x08001574   Data           2  os_dbg.o(.constdata)
-    OSTaskMax                                0x08001576   Data           2  os_dbg.o(.constdata)
-    OSTaskNameSize                           0x08001578   Data           2  os_dbg.o(.constdata)
-    OSTaskStatEn                             0x0800157a   Data           2  os_dbg.o(.constdata)
-    OSTaskStatStkSize                        0x0800157c   Data           2  os_dbg.o(.constdata)
-    OSTaskStatStkChkEn                       0x0800157e   Data           2  os_dbg.o(.constdata)
-    OSTaskSwHookEn                           0x08001580   Data           2  os_dbg.o(.constdata)
-    OSTCBPrioTblMax                          0x08001582   Data           2  os_dbg.o(.constdata)
-    OSTCBSize                                0x08001584   Data           2  os_dbg.o(.constdata)
-    OSTicksPerSec                            0x08001586   Data           2  os_dbg.o(.constdata)
-    OSTimeTickHookEn                         0x08001588   Data           2  os_dbg.o(.constdata)
-    OSVersionNbr                             0x0800158a   Data           2  os_dbg.o(.constdata)
-    OSDataSize                               0x0800158c   Data           2  os_dbg.o(.constdata)
-    OSUnMapTbl                               0x0800158e   Data         256  os_core.o(.constdata)
-    Region$$Table$$Base                      0x08001690   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x080016b0   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x080014bd   Thumb Code    28  main.o(i.main)
+    print_task                               0x080014e1   Thumb Code    20  main.o(i.print_task)
+    start_task                               0x08001501   Thumb Code    44  main.o(i.start_task)
+    OSDebugEn                                0x08001534   Data           2  os_dbg.o(.constdata)
+    OSEndiannessTest                         0x08001538   Data           4  os_dbg.o(.constdata)
+    OSEventMax                               0x0800153c   Data           2  os_dbg.o(.constdata)
+    OSEventNameSize                          0x0800153e   Data           2  os_dbg.o(.constdata)
+    OSEventEn                                0x08001540   Data           2  os_dbg.o(.constdata)
+    OSEventSize                              0x08001542   Data           2  os_dbg.o(.constdata)
+    OSEventTblSize                           0x08001544   Data           2  os_dbg.o(.constdata)
+    OSFlagEn                                 0x08001546   Data           2  os_dbg.o(.constdata)
+    OSFlagGrpSize                            0x08001548   Data           2  os_dbg.o(.constdata)
+    OSFlagNodeSize                           0x0800154a   Data           2  os_dbg.o(.constdata)
+    OSFlagWidth                              0x0800154c   Data           2  os_dbg.o(.constdata)
+    OSFlagMax                                0x0800154e   Data           2  os_dbg.o(.constdata)
+    OSFlagNameSize                           0x08001550   Data           2  os_dbg.o(.constdata)
+    OSLowestPrio                             0x08001552   Data           2  os_dbg.o(.constdata)
+    OSMboxEn                                 0x08001554   Data           2  os_dbg.o(.constdata)
+    OSMemEn                                  0x08001556   Data           2  os_dbg.o(.constdata)
+    OSMemMax                                 0x08001558   Data           2  os_dbg.o(.constdata)
+    OSMemNameSize                            0x0800155a   Data           2  os_dbg.o(.constdata)
+    OSMemSize                                0x0800155c   Data           2  os_dbg.o(.constdata)
+    OSMemTblSize                             0x0800155e   Data           2  os_dbg.o(.constdata)
+    OSMutexEn                                0x08001560   Data           2  os_dbg.o(.constdata)
+    OSPtrSize                                0x08001562   Data           2  os_dbg.o(.constdata)
+    OSQEn                                    0x08001564   Data           2  os_dbg.o(.constdata)
+    OSQMax                                   0x08001566   Data           2  os_dbg.o(.constdata)
+    OSQSize                                  0x08001568   Data           2  os_dbg.o(.constdata)
+    OSRdyTblSize                             0x0800156a   Data           2  os_dbg.o(.constdata)
+    OSSemEn                                  0x0800156c   Data           2  os_dbg.o(.constdata)
+    OSStkWidth                               0x0800156e   Data           2  os_dbg.o(.constdata)
+    OSTaskCreateEn                           0x08001570   Data           2  os_dbg.o(.constdata)
+    OSTaskCreateExtEn                        0x08001572   Data           2  os_dbg.o(.constdata)
+    OSTaskDelEn                              0x08001574   Data           2  os_dbg.o(.constdata)
+    OSTaskIdleStkSize                        0x08001576   Data           2  os_dbg.o(.constdata)
+    OSTaskProfileEn                          0x08001578   Data           2  os_dbg.o(.constdata)
+    OSTaskMax                                0x0800157a   Data           2  os_dbg.o(.constdata)
+    OSTaskNameSize                           0x0800157c   Data           2  os_dbg.o(.constdata)
+    OSTaskStatEn                             0x0800157e   Data           2  os_dbg.o(.constdata)
+    OSTaskStatStkSize                        0x08001580   Data           2  os_dbg.o(.constdata)
+    OSTaskStatStkChkEn                       0x08001582   Data           2  os_dbg.o(.constdata)
+    OSTaskSwHookEn                           0x08001584   Data           2  os_dbg.o(.constdata)
+    OSTCBPrioTblMax                          0x08001586   Data           2  os_dbg.o(.constdata)
+    OSTCBSize                                0x08001588   Data           2  os_dbg.o(.constdata)
+    OSTicksPerSec                            0x0800158a   Data           2  os_dbg.o(.constdata)
+    OSTimeTickHookEn                         0x0800158c   Data           2  os_dbg.o(.constdata)
+    OSVersionNbr                             0x0800158e   Data           2  os_dbg.o(.constdata)
+    OSDataSize                               0x08001590   Data           2  os_dbg.o(.constdata)
+    OSUnMapTbl                               0x08001592   Data         256  os_core.o(.constdata)
+    Region$$Table$$Base                      0x08001694   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080016b4   Number         0  anon$$obj.o(Region$$Table)
     SystemCoreClock                          0x20000000   Data           4  system_stm32f10x.o(.data)
     AHBPrescTable                            0x20000004   Data          16  system_stm32f10x.o(.data)
     OSCtxSwCtr                               0x20000028   Data           4  os_core.o(.data)
@@ -1575,9 +1576,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000131
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000171c, Max: 0x00080000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00001720, Max: 0x00080000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x000016b0, Max: 0x00080000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x000016b4, Max: 0x00080000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1668,13 +1669,13 @@ Memory Map of the image
     0x08001468   0x0000000e   Code   RO         4189    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x08001476   0x00000022   Code   RO         3891    i._printf_core      mc_w.l(printfb.o)
     0x08001498   0x00000024   Code   RO         3802    i.fputc             log.o
-    0x080014bc   0x00000020   Code   RO         3830    i.main              main.o
-    0x080014dc   0x00000020   Code   RO         3831    i.print_task        main.o
-    0x080014fc   0x00000034   Code   RO         3832    i.start_task        main.o
-    0x08001530   0x0000005e   Data   RO         3235    .constdata          os_dbg.o
-    0x0800158e   0x00000100   Data   RO         3292    .constdata          os_core.o
-    0x0800168e   0x00000002   PAD
-    0x08001690   0x00000020   Data   RO         4185    Region$$Table       anon$$obj.o
+    0x080014bc   0x00000024   Code   RO         3830    i.main              main.o
+    0x080014e0   0x00000020   Code   RO         3831    i.print_task        main.o
+    0x08001500   0x00000034   Code   RO         3832    i.start_task        main.o
+    0x08001534   0x0000005e   Data   RO         3235    .constdata          os_dbg.o
+    0x08001592   0x00000100   Data   RO         3292    .constdata          os_core.o
+    0x08001692   0x00000002   PAD
+    0x08001694   0x00000020   Data   RO         4185    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x000014a0, Max: 0x00010000, ABSOLUTE)
@@ -1699,7 +1700,7 @@ Image component sizes
 
          0          0          0          0          0       4548   core_cm3.o
        160         14          0          0          0       2940   log.o
-       212         40          0          0        512      17946   main.o
+       216         40          0          0        512      17950   main.o
       1742        340        256         64       3636      19906   os_core.o
        164         32          0          0          0        336   os_cpu_a.o
        210          6          0          0          0      14936   os_cpu_c.o
@@ -1715,7 +1716,7 @@ Image component sizes
        328         28          0         20          0     228425   system_stm32f10x.o
 
     ----------------------------------------------------------------------
-      4980        768        688        104       5172     321601   Object Totals
+      4984        768        688        104       5172     321605   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         20          0          2          0          0          0   (incl. Padding)
 
@@ -1757,15 +1758,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      5120        792        688        108       5172     318957   Grand Totals
-      5120        792        688        108       5172     318957   ELF Image Totals
-      5120        792        688        108          0          0   ROM Totals
+      5124        792        688        108       5172     318961   Grand Totals
+      5124        792        688        108       5172     318961   ELF Image Totals
+      5124        792        688        108          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 5808 (   5.67kB)
+    Total RO  Size (Code + RO Data)                 5812 (   5.68kB)
     Total RW  Size (RW Data + ZI Data)              5280 (   5.16kB)
-    Total ROM Size (Code + RO Data + RW Data)       5916 (   5.78kB)
+    Total ROM Size (Code + RO Data + RW Data)       5920 (   5.78kB)
 
 ==============================================================================
 

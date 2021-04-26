@@ -23,16 +23,21 @@ OS_STK TASK1_STK[TASK1_STK_SIZE];
 //任务函数
 void print_task(void *pdata);
 
-/*---------------------------滴答定时器设置---------------------------*/
-void SysTick_init(void) /*  SysTick_init   配置SysTick定时器  */
+/*---------------------------初始化---------------------------*/
+//SysTick初始化
+void SysTick_init(void) 
 {
-    SysTick_Config(SystemCoreClock / OS_TICKS_PER_SEC); //初始化并使能SysTick定时器
+    SysTick_Config(SystemCoreClock / OS_TICKS_PER_SEC);
 }
 
+
+
+/*---------------------------MAIN函数---------------------------*/
 int main(void)
 {
 
     OSInit();
+    USART1_Config();        // 串口1初始化，用于printf调试
     OSTaskCreate(start_task, (void *)0, (OS_STK *)&START_TASK_STK[START_STK_SIZE - 1], START_TASK_PRIO); //创建起始任务
     OSStart();
     while (1)
@@ -40,7 +45,7 @@ int main(void)
     }
 }
 
-//开始任务
+/*---------------------------任务函数---------------------------*/
 void start_task(void *pdata)
 {
     OS_CPU_SR cpu_sr = 0;
