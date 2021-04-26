@@ -1,0 +1,11 @@
+.\build\USART1-DEMO\stm32f10x_can.o: .\FWlib\src\stm32f10x_can.c
+.\build\USART1-DEMO\stm32f10x_can.o: .\FWlib\inc\stm32f10x_can.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\CMSIS\stm32f10x.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\CMSIS\core_cm3.h
+.\build\USART1-DEMO\stm32f10x_can.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\CMSIS\system_stm32f10x.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\FWlib\inc\stm32f10x_conf.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\FWlib\inc\stm32f10x_gpio.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\CMSIS\stm32f10x.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\FWlib\inc\stm32f10x_rcc.h
+.\build\USART1-DEMO\stm32f10x_can.o: .\FWlib\inc\stm32f10x_usart.h

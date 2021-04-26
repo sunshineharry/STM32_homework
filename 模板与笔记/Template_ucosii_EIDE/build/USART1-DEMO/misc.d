@@ -1,0 +1,11 @@
+.\build\USART1-DEMO\misc.o: .\FWlib\src\misc.c
+.\build\USART1-DEMO\misc.o: .\FWlib\inc\misc.h
+.\build\USART1-DEMO\misc.o: .\CMSIS\stm32f10x.h
+.\build\USART1-DEMO\misc.o: .\CMSIS\core_cm3.h
+.\build\USART1-DEMO\misc.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\USART1-DEMO\misc.o: .\CMSIS\system_stm32f10x.h
+.\build\USART1-DEMO\misc.o: .\FWlib\inc\stm32f10x_conf.h
+.\build\USART1-DEMO\misc.o: .\FWlib\inc\stm32f10x_gpio.h
+.\build\USART1-DEMO\misc.o: .\CMSIS\stm32f10x.h
+.\build\USART1-DEMO\misc.o: .\FWlib\inc\stm32f10x_rcc.h
+.\build\USART1-DEMO\misc.o: .\FWlib\inc\stm32f10x_usart.h

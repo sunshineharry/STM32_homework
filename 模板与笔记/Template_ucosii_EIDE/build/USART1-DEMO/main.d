@@ -1,0 +1,15 @@
+.\build\USART1-DEMO\main.o: .\USER\src\main.c
+.\build\USART1-DEMO\main.o: .\CMSIS\stm32f10x.h
+.\build\USART1-DEMO\main.o: .\CMSIS\core_cm3.h
+.\build\USART1-DEMO\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\USART1-DEMO\main.o: .\CMSIS\system_stm32f10x.h
+.\build\USART1-DEMO\main.o: .\FWlib\inc\stm32f10x_conf.h
+.\build\USART1-DEMO\main.o: .\FWlib\inc\stm32f10x_gpio.h
+.\build\USART1-DEMO\main.o: .\CMSIS\stm32f10x.h
+.\build\USART1-DEMO\main.o: .\FWlib\inc\stm32f10x_rcc.h
+.\build\USART1-DEMO\main.o: .\FWlib\inc\stm32f10x_usart.h
+.\build\USART1-DEMO\main.o: .\USER\inc\log.h
+.\build\USART1-DEMO\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\build\USART1-DEMO\main.o: .\UCOS-II\Source\ucos_ii.h
+.\build\USART1-DEMO\main.o: .\UCOS-II\Config\os_cfg.h
+.\build\USART1-DEMO\main.o: .\UCOS-II\Ports\os_cpu.h

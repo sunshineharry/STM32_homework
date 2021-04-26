@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Harry/Desktop/MCU_homework/hw4_shineLED/Inc
+HeaderPath=C:/Users/Harry/Desktop/MCU_homework/hw4_shineLED_HAL/Inc
 HeaderFiles=gpio.h;stm32f1xx_it.h;stm32f1xx_hal_conf.h;main.h;
-SourcePath=C:/Users/Harry/Desktop/MCU_homework/hw4_shineLED/Src
+SourcePath=C:/Users/Harry/Desktop/MCU_homework/hw4_shineLED_HAL/Src
 SourceFiles=gpio.c;stm32f1xx_it.c;stm32f1xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

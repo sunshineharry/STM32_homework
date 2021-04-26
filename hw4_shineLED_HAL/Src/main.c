@@ -102,7 +102,7 @@ int main(void)
   {
     
   /* USER CODE END WHILE */
-  shine_led(1000);
+
   /* USER CODE BEGIN 3 */
 
   }

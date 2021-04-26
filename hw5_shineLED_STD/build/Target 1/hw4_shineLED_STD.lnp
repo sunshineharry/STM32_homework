@@ -1,4 +1,4 @@
---cpu Cortex-M3 --library_type=microlib --scatter "c:/Users/Harry/Desktop/MCU_homework/hw4_shineLED_STD/build/Target 1/hw4_shineLED_STD.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--cpu Cortex-M3 --library_type=microlib --scatter "c:/Users/Harry/Desktop/MCU_homework/hw5_shineLED_STD/build/Target 1/hw4_shineLED_STD.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
 --list ".\build\Target 1\hw4_shineLED_STD.map"
 ".\build\Target 1\core_cm3.o"
 ".\build\Target 1\misc.o"

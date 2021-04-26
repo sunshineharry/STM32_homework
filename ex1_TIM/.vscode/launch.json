@@ -7,7 +7,7 @@
             "request": "launch",
             "name": "stlink",
             "servertype": "openocd",
-            "executable": ".\\build\\Target 1\\Template_EIDE.elf",
+            "executable": ".\\build\\Target 1\\ex1_TIM.elf",
             "runToMain": true,
             "configFiles": [
                 "interface/stlink.cfg",

@@ -13,6 +13,7 @@ static void init(void* self)
     GPIO_InitStructure.GPIO_Pin = LED1_Pin | LED2_Pin | LED3_Pin | LED4_Pin;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;     // 推挽输出
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
     GPIO_Init(LED_GPIO_Port,&GPIO_InitStructure);
 }
 

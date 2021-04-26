@@ -8,6 +8,7 @@ int main(void)
     led->init(led);
     while(1)
     {
-        led->shine(led);
+        //led->shine(led);
+        ;
     }
 }

@@ -1,0 +1,64 @@
+[2021-04-14 21:44:15]	[done]
+	build successfully !
+
+[2021-04-15 00:01:02]	[done]
+	build successfully !
+
+[2021-04-15 00:30:27]	link failed !, exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:30:50]	link failed !, exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:31:26]	link failed !, exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:33:10]	link failed !, exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:34:32]	link failed !, exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:35:16]	link failed !, exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:35:32]	link failed !, exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:38:21]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\ex2_Bell\user\src\systick.c", exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 00:40:03]	[done]
+	build successfully !
+
+[2021-04-15 00:40:50]	[done]
+	build successfully !
+
+[2021-04-15 00:41:49]	[done]
+	build successfully !
+
+[2021-04-15 09:23:49]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\ex2_Bell\user\src\systick.c", exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 09:24:48]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\ex2_Bell\user\src\beep.c", exit code: 1
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 09:26:18]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\ex2_Bell\user\src\beep.c", exit code: 1
+   在 unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds, List`1 doneList)
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-04-15 09:27:04]	[done]
+	build successfully !
+
+[2021-04-15 09:28:20]	[done]
+	build successfully !
+
+[2021-04-15 09:29:42]	[done]
+	build successfully !
+
+[2021-04-15 09:41:15]	[done]
+	build successfully !
+
+[2021-04-15 09:41:29]	[done]
+	build successfully !
+

@@ -1,4 +1,4 @@
-objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\Template_EIDE.bin" "c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\Template_EIDE.axf" "c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\Template_EIDE.elf"
+objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\ex1_TIM.bin" "c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\ex1_TIM.axf" "c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\ex1_TIM.elf"
 
-objcopy.exe: c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\Template_EIDE.elf: warning: allocated section `RW_IRAM1' not in segment
+objcopy.exe: c:\Users\Harry\Desktop\MCU_homework\ex1_TIM\build\Target 1\ex1_TIM.elf: warning: allocated section `RW_IRAM1' not in segment
 

@@ -1,0 +1,1 @@
+--apcs=interwork --cpu Cortex-M3 --pd "__MICROLIB SETA 1" -g -I.\CMSIS -I.\USER -I.\FWlib\inc -I.\FWlib\src -I.\UCOS-II\Config -I.\UCOS-II\Ports -I.\UCOS-II\Source -I.\.eide\deps -I.\USER\inc -o .\build\USART1-DEMO\os_cpu_a.o --depend .\build\USART1-DEMO\os_cpu_a.d .\UCOS-II\Ports\os_cpu_a.asm

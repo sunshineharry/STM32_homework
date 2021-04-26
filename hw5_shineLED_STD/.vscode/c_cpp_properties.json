@@ -24,7 +24,7 @@
                 "databaseFilename": "${default}"
             },
             "forcedInclude": [
-                ".\\..\\..\\..\\.vscode-insiders\\extensions\\cl.eide-2.3.2\\bin\\include\\internal_headers\\armcc_intr.h"
+                ".\\..\\..\\..\\.vscode-insiders\\extensions\\cl.eide-2.5.3\\bin\\include\\internal_headers\\armcc_intr.h"
             ]
         }
     ],

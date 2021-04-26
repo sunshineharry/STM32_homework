@@ -1,10 +1,10 @@
 --cpu Cortex-M3
 "hw4_shineled\startup_stm32f107xc.o"
+"hw4_shineled\led.o"
 "hw4_shineled\main.o"
 "hw4_shineled\gpio.o"
 "hw4_shineled\stm32f1xx_it.o"
 "hw4_shineled\stm32f1xx_hal_msp.o"
-"hw4_shineled\led.o"
 "hw4_shineled\stm32f1xx_hal_gpio_ex.o"
 "hw4_shineled\stm32f1xx_hal_tim.o"
 "hw4_shineled\stm32f1xx_hal_tim_ex.o"
