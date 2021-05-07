@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                "${default}",
+                ".\\USER",
+                ".\\CORE",
+                ".\\STM32F10x_FWLib\\inc",
+                ".\\SYSTEM\\delay",
+                ".\\SYSTEM\\sys",
+                ".\\SYSTEM\\usart",
+                ".\\UCOSII\\CONFIG",
+                ".\\UCOSII\\CORE",
+                ".\\UCOSII\\PORT",
+                ".\\USER\\inc",
+                ".\\.eide\\deps",
+                ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include",
+                ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include\\rw",
+                ".\\Hardware\\src",
+                ".\\Hardware\\inc",
+                ".\\USER\\src"
+            ],
+            "defines": [
+                "${default}",
+                "STM32F10X_HD",
+                "USE_STDPERIPH_DRIVER",
+                "__VSCODE_CPPTOOL"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}"
+            },
+            "forcedInclude": [
+                ".\\..\\..\\..\\..\\.vscode-insiders\\extensions\\cl.eide-2.5.4\\bin\\include\\internal_headers\\armcc_intr.h"
+            ]
+        }
+    ],
+    "version": 4
+}

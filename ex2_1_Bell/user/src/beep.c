@@ -1,13 +1,13 @@
 #include "beep.h"
 
 // 打开蜂鸣器
-static void BEEP_Turn_On(void)
+static void BEEP_Turn_Off(void)
 {
     GPIO_ResetBits(GPIO_BEEP_PORT, GPIO_BEEP_PIN);
 }
 
 // 蜂鸣器关闭
-static void BEEP_Turn_Off(void)
+static void BEEP_Turn_On(void)
 {
     GPIO_SetBits(GPIO_BEEP_PORT, GPIO_BEEP_PIN);
 }
@@ -28,7 +28,7 @@ void BEEP_Init(void)
     GPIO_InitTypeDef GPIO_InitStructure;
 
     // 使能LED对应的GPIOD的Clock时钟
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);
 
     // 初始化引脚，设置为推挽输出
     GPIO_InitStructure.GPIO_Pin = GPIO_BEEP_PIN;

@@ -1,0 +1,1 @@
+--apcs=interwork --cpu Cortex-M3 --pd "__MICROLIB SETA 1" -g -I.\USER -I.\CORE -I.\STM32F10x_FWLib\inc -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\SYSTEM\usart -I.\UCOSII\CONFIG -I.\UCOSII\CORE -I.\UCOSII\PORT -I.\USER\inc -I.\.eide\deps -I.\Hardware\src -I.\Hardware\inc -I.\USER\src -o .\build\UCOSII-1-2\os_cpu_a.o --depend .\build\UCOSII-1-2\os_cpu_a.d .\UCOSII\PORT\os_cpu_a.asm

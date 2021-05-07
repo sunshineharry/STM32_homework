@@ -1,0 +1,4 @@
+objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\Dog\Dog_uCos\build\UCOSII-1-2\Template_uCos.bin" "c:\Users\Harry\Desktop\MCU_homework\Dog\Dog_uCos\build\UCOSII-1-2\Template_uCos.axf" "c:\Users\Harry\Desktop\MCU_homework\Dog\Dog_uCos\build\UCOSII-1-2\Template_uCos.elf"
+
+objcopy.exe: c:\Users\Harry\Desktop\MCU_homework\Dog\Dog_uCos\build\UCOSII-1-2\Template_uCos.elf: warning: allocated section `RW_IRAM1' not in segment
+

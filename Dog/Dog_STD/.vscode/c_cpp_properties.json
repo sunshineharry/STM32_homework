@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                "${default}",
+                ".\\Libraries\\STM32F10x_StdPeriph_Driver\\inc",
+                ".\\Libraries\\CMSIS\\CM3\\CoreSupport",
+                ".\\user\\inc",
+                ".\\Libraries\\CMSIS\\CM3\\DeviceSupport\\ST\\STM32F10x",
+                ".\\.eide\\deps",
+                ".\\Hardware\\inc",
+                ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include",
+                ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include\\rw",
+                ".\\Hardware\\src",
+                ".\\user\\src"
+            ],
+            "defines": [
+                "${default}",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10X_XL",
+                "__VSCODE_CPPTOOL"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}"
+            },
+            "forcedInclude": [
+                ".\\..\\..\\..\\..\\.vscode-insiders\\extensions\\cl.eide-2.5.4\\bin\\include\\internal_headers\\armcc_intr.h"
+            ]
+        }
+    ],
+    "version": 4
+}

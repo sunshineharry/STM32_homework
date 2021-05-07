@@ -1,4 +1,4 @@
---cpu Cortex-M3 --library_type=microlib --scatter "c:/Users/Harry/Desktop/MCU_homework/ex2_Bell/build/Target 1/Template_EIDE.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--cpu Cortex-M3 --library_type=microlib --scatter "c:/Users/Harry/Desktop/MCU_homework/ex2_1_Bell/build/Target 1/Template_EIDE.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
 --list ".\build\Target 1\Template_EIDE.map"
 ".\build\Target 1\core_cm3.o"
 ".\build\Target 1\misc.o"

@@ -1,4 +1,0 @@
-objcopy.exe --update-section ER_IROM1="c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_ucosii_EIDE\build\USART1-DEMO\Template_ucosii_EIDE.bin" "c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_ucosii_EIDE\build\USART1-DEMO\Template_ucosii_EIDE.axf" "c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_ucosii_EIDE\build\USART1-DEMO\Template_ucosii_EIDE.elf"
-
-objcopy.exe: c:\Users\Harry\Desktop\MCU_homework\模板与笔记\Template_ucosii_EIDE\build\USART1-DEMO\Template_ucosii_EIDE.elf: warning: allocated section `RW_IRAM1' not in segment
-
