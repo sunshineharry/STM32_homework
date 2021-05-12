@@ -29,3 +29,5 @@
 .\build\Target 1\pwm.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\build\Target 1\pwm.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\build\Target 1\pwm.o: .\Hardware\inc\pwm.h
+.\build\Target 1\pwm.o: .\Hardware\inc\usart.h
+.\build\Target 1\pwm.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdio.h

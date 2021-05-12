@@ -1,42 +1,16 @@
-[2021-05-07 16:24:58]	link failed !, exit code: 1
+[2021-05-11 22:07:41]	[done]
+	build successfully !
+
+[2021-05-12 12:58:48]	compilation failed at : "c:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\codegen\lib\get_DH_matrix\interface\_coder_get_DH_matrix_mex.c", exit code: 1
+   在 unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds, List`1 doneList)
    在 unify_builder.Program.Main(String[] args)
 
-[2021-05-07 16:27:01]	link failed !, exit code: 1
-   在 unify_builder.Program.Main(String[] args)
-
-[2021-05-07 16:32:25]	[done]
+[2021-05-12 13:09:29]	[done]
 	build successfully !
 
-[2021-05-07 16:34:43]	[done]
+[2021-05-12 13:11:25]	[done]
 	build successfully !
 
-[2021-05-07 16:36:29]	[done]
-	build successfully !
-
-[2021-05-07 16:38:59]	[done]
-	build successfully !
-
-[2021-05-07 16:40:15]	[done]
-	build successfully !
-
-[2021-05-07 16:44:48]	[done]
-	build successfully !
-
-[2021-05-07 16:45:35]	[done]
-	build successfully !
-
-[2021-05-07 16:46:58]	[done]
-	build successfully !
-
-[2021-05-07 16:48:55]	[done]
-	build successfully !
-
-[2021-05-07 16:54:11]	[done]
-	build successfully !
-
-[2021-05-07 16:56:25]	[done]
-	build successfully !
-
-[2021-05-07 17:04:56]	[done]
+[2021-05-12 13:12:24]	[done]
 	build successfully !
 

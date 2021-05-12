@@ -32,3 +32,11 @@
 .\build\Target 1\main.o: .\Hardware\inc\beep.h
 .\build\Target 1\main.o: .\Hardware\inc\usart.h
 .\build\Target 1\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\build\Target 1\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\build\Target 1\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\build\Target 1\main.o: .\Kinematics\codegen\lib\get_DH_matrix\rtwtypes.h
+.\build\Target 1\main.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\build\Target 1\main.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_types.h
+.\build\Target 1\main.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix.h
+.\build\Target 1\main.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_terminate.h
+.\build\Target 1\main.o: .\Kinematics\codegen\lib\get_DH_matrix\rt_nonfinite.h

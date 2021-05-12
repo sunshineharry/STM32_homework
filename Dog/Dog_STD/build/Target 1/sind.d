@@ -1,0 +1,11 @@
+.\build\Target 1\sind.o: .\Kinematics\codegen\lib\get_DH_matrix\sind.c
+.\build\Target 1\sind.o: .\Kinematics\codegen\lib\get_DH_matrix\sind.h
+.\build\Target 1\sind.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\build\Target 1\sind.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\build\Target 1\sind.o: .\Kinematics\codegen\lib\get_DH_matrix\rtwtypes.h
+.\build\Target 1\sind.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\build\Target 1\sind.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_types.h
+.\build\Target 1\sind.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix.h
+.\build\Target 1\sind.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_rtwutil.h
+.\build\Target 1\sind.o: .\Kinematics\codegen\lib\get_DH_matrix\rt_nonfinite.h
+.\build\Target 1\sind.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\math.h

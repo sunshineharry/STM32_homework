@@ -1,5 +1,6 @@
 #include "stm32f10x.h"
 #include "pwm.h"
+#include "usart.h"
 
 
 // 对输出PWM的GPIO口初始化
@@ -176,45 +177,46 @@ void PWM_Init(void)
   */
 void PWM_Output(uint8_t leg, uint16_t degree)
 {
-    uint16_t compareTime = 20000 - (degree/180*1000 + 1000);
+    uint16_t compareTime = (uint16_t)(19500-100*degree/9);
+    // LOG_INFO("comparetime=%d",compareTime);
     switch (leg)
     {
-    case RF_LEG1:
+    case YH_LEG1:
     {
         TIM_SetCompare2(TIM3, compareTime);
         break;
     }
-    case RF_LEG2:
+    case YH_LEG2:
     {
         TIM_SetCompare3(TIM3, compareTime);
         break;
     }
-    case LF_LEG1:
+    case YQ_LEG1:
     {
         TIM_SetCompare1(TIM5, compareTime);
         break;
     }
-    case LF_LEG2:
+    case YQ_LEG2:
     {
         TIM_SetCompare4(TIM3, compareTime);
         break;
     }
-    case RB_LEG1:
+    case ZH_LEG1:
     {
         TIM_SetCompare1(TIM3, compareTime);
         break;
     }
-    case RB_LEG2:
+    case ZH_LEG2:
     {
         TIM_SetCompare4(TIM5, compareTime);
         break;
     }
-    case LB_LEG1:
+    case ZQ_LEG1:
     {
         TIM_SetCompare2(TIM5, compareTime);
         break;
     }
-    case LB_LEG2:
+    case ZQ_LEG2:
     {
         TIM_SetCompare3(TIM5, compareTime);
         break;

@@ -1,0 +1,10 @@
+.\build\Target 1\get_DH_matrix_initialize.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_initialize.c
+.\build\Target 1\get_DH_matrix_initialize.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_initialize.h
+.\build\Target 1\get_DH_matrix_initialize.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\build\Target 1\get_DH_matrix_initialize.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\build\Target 1\get_DH_matrix_initialize.o: .\Kinematics\codegen\lib\get_DH_matrix\rtwtypes.h
+.\build\Target 1\get_DH_matrix_initialize.o: C:\Portable\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\build\Target 1\get_DH_matrix_initialize.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_types.h
+.\build\Target 1\get_DH_matrix_initialize.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix.h
+.\build\Target 1\get_DH_matrix_initialize.o: .\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix_data.h
+.\build\Target 1\get_DH_matrix_initialize.o: .\Kinematics\codegen\lib\get_DH_matrix\rt_nonfinite.h

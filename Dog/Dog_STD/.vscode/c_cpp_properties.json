@@ -10,6 +10,7 @@
                 ".\\Libraries\\CMSIS\\CM3\\DeviceSupport\\ST\\STM32F10x",
                 ".\\.eide\\deps",
                 ".\\Hardware\\inc",
+                ".\\Kinematics\\codegen\\lib\\get_DH_matrix",
                 ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include",
                 ".\\..\\..\\..\\..\\..\\..\\Portable\\Keil\\ARM\\ARMCC\\include\\rw",
                 ".\\Hardware\\src",
