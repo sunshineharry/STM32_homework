@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2018b">
-  <configuration build-checksum="1419409340" file="C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\get_DH_matrix.prj" location="C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics" name="get_DH_matrix" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration file="C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\solve_DH_parm.prj" location="C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics" name="solve_DH_parm" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex />
       <param.RanInstrumentedMex />
@@ -34,7 +34,7 @@
       <param.DefaultTestFile />
       <param.MergeInstrumentationResults />
       <param.VerificationMode />
-      <param.VerificationStatus>option.VerificationStatus.Passed</param.VerificationStatus>
+      <param.VerificationStatus>option.VerificationStatus.Inactive</param.VerificationStatus>
       <param.EnableMexProfiling />
       <var.BuiltWithMexProfiling />
       <param.CustomSourceCode />
@@ -100,6 +100,7 @@
         <param.DefaultTestFile />
         <param.MergeInstrumentationResults />
         <param.VerificationMode />
+        <param.VerificationStatus />
         <param.EnableMexProfiling />
         <var.BuiltWithMexProfiling />
         <param.CustomSourceCode />
@@ -231,47 +232,47 @@
       <param.CustomToolchainOptions />
       <var.ToolchainSettingsVisible />
       <param.target.Data>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ctdata&gt;&lt;configuredHardware/&gt;&lt;/ctdata&gt;</param.target.Data>
-      <param.target.ActiveType>option.target.TargetType.Custom</param.target.ActiveType>
+      <param.target.ActiveType>option.target.TargetType.MatlabHost</param.target.ActiveType>
       <param.target.ActiveTarget />
-      <param.HardwareVendor.Production>STMicroelectronics</param.HardwareVendor.Production>
-      <param.HardwareType.Production>ST10/Super10</param.HardwareType.Production>
+      <param.HardwareVendor.Production>Generic</param.HardwareVendor.Production>
+      <param.HardwareType.Production>MATLAB Host Computer</param.HardwareType.Production>
       <param.HWDeviceType.Production />
       <var.instance.enabled.Production />
       <param.HardwareSizeChar.Production>8</param.HardwareSizeChar.Production>
       <param.HardwareSizeShort.Production>16</param.HardwareSizeShort.Production>
-      <param.HardwareSizeInt.Production>16</param.HardwareSizeInt.Production>
+      <param.HardwareSizeInt.Production>32</param.HardwareSizeInt.Production>
       <param.HardwareSizeLong.Production>32</param.HardwareSizeLong.Production>
       <param.HardwareSizeLongLong.Production>64</param.HardwareSizeLongLong.Production>
       <param.HardwareSizeFloat.Production>32</param.HardwareSizeFloat.Production>
       <param.HardwareSizeDouble.Production>64</param.HardwareSizeDouble.Production>
-      <param.HardwareSizeWord.Production>16</param.HardwareSizeWord.Production>
-      <param.HardwareSizePointer.Production>16</param.HardwareSizePointer.Production>
-      <param.HardwareSizeSizeT.Production>16</param.HardwareSizeSizeT.Production>
-      <param.HardwareSizePtrDiffT.Production>16</param.HardwareSizePtrDiffT.Production>
+      <param.HardwareSizeWord.Production>64</param.HardwareSizeWord.Production>
+      <param.HardwareSizePointer.Production>64</param.HardwareSizePointer.Production>
+      <param.HardwareSizeSizeT.Production>64</param.HardwareSizeSizeT.Production>
+      <param.HardwareSizePtrDiffT.Production>64</param.HardwareSizePtrDiffT.Production>
       <param.HardwareEndianness.Production>option.HardwareEndianness.Little</param.HardwareEndianness.Production>
       <param.HardwareArithmeticRightShift.Production>true</param.HardwareArithmeticRightShift.Production>
-      <param.HardwareLongLongMode.Production>false</param.HardwareLongLongMode.Production>
+      <param.HardwareLongLongMode.Production>true</param.HardwareLongLongMode.Production>
       <param.HardwareAtomicIntegerSize.Production>option.HardwareAtomicIntegerSize.Char</param.HardwareAtomicIntegerSize.Production>
       <param.HardwareAtomicFloatSize.Production>option.HardwareAtomicFloatSize.None</param.HardwareAtomicFloatSize.Production>
       <param.HardwareDivisionRounding.Production>option.HardwareDivisionRounding.Zero</param.HardwareDivisionRounding.Production>
-      <param.HardwareVendor.Target>STMicroelectronics</param.HardwareVendor.Target>
-      <param.HardwareType.Target>ST10/Super10</param.HardwareType.Target>
+      <param.HardwareVendor.Target>Generic</param.HardwareVendor.Target>
+      <param.HardwareType.Target>MATLAB Host Computer</param.HardwareType.Target>
       <param.HWDeviceType.Target />
       <var.instance.enabled.Target />
       <param.HardwareSizeChar.Target>8</param.HardwareSizeChar.Target>
       <param.HardwareSizeShort.Target>16</param.HardwareSizeShort.Target>
-      <param.HardwareSizeInt.Target>16</param.HardwareSizeInt.Target>
+      <param.HardwareSizeInt.Target>32</param.HardwareSizeInt.Target>
       <param.HardwareSizeLong.Target>32</param.HardwareSizeLong.Target>
       <param.HardwareSizeLongLong.Target>64</param.HardwareSizeLongLong.Target>
       <param.HardwareSizeFloat.Target>32</param.HardwareSizeFloat.Target>
       <param.HardwareSizeDouble.Target>64</param.HardwareSizeDouble.Target>
-      <param.HardwareSizeWord.Target>16</param.HardwareSizeWord.Target>
-      <param.HardwareSizePointer.Target>16</param.HardwareSizePointer.Target>
-      <param.HardwareSizeSizeT.Target>16</param.HardwareSizeSizeT.Target>
-      <param.HardwareSizePtrDiffT.Target>16</param.HardwareSizePtrDiffT.Target>
+      <param.HardwareSizeWord.Target>64</param.HardwareSizeWord.Target>
+      <param.HardwareSizePointer.Target>64</param.HardwareSizePointer.Target>
+      <param.HardwareSizeSizeT.Target>64</param.HardwareSizeSizeT.Target>
+      <param.HardwareSizePtrDiffT.Target>64</param.HardwareSizePtrDiffT.Target>
       <param.HardwareEndianness.Target>option.HardwareEndianness.Little</param.HardwareEndianness.Target>
       <param.HardwareArithmeticRightShift.Target>true</param.HardwareArithmeticRightShift.Target>
-      <param.HardwareLongLongMode.Target>false</param.HardwareLongLongMode.Target>
+      <param.HardwareLongLongMode.Target>true</param.HardwareLongLongMode.Target>
       <param.HardwareAtomicIntegerSize.Target>option.HardwareAtomicIntegerSize.Char</param.HardwareAtomicIntegerSize.Target>
       <param.HardwareAtomicFloatSize.Target>option.HardwareAtomicFloatSize.None</param.HardwareAtomicFloatSize.Target>
       <param.HardwareDivisionRounding.Target>option.HardwareDivisionRounding.Zero</param.HardwareDivisionRounding.Target>
@@ -414,31 +415,34 @@
         <param.BuildConfiguration />
         <param.CustomToolchainOptions />
         <var.ToolchainSettingsVisible />
+        <param.target.ActiveType />
         <param.target.ActiveTarget />
+        <param.HardwareVendor.Production />
         <param.HardwareType.Production />
         <param.HWDeviceType.Production />
         <var.instance.enabled.Production />
         <param.HardwareSizeChar.Production />
         <param.HardwareSizeShort.Production />
+        <param.HardwareSizeInt.Production />
         <param.HardwareSizeLong.Production />
         <param.HardwareSizeLongLong.Production />
         <param.HardwareSizeFloat.Production />
         <param.HardwareSizeDouble.Production />
         <param.HardwareEndianness.Production />
-        <param.HardwareLongLongMode.Production />
         <param.HardwareAtomicIntegerSize.Production />
         <param.HardwareAtomicFloatSize.Production />
+        <param.HardwareVendor.Target />
         <param.HardwareType.Target />
         <param.HWDeviceType.Target />
         <var.instance.enabled.Target />
         <param.HardwareSizeChar.Target />
         <param.HardwareSizeShort.Target />
+        <param.HardwareSizeInt.Target />
         <param.HardwareSizeLong.Target />
         <param.HardwareSizeLongLong.Target />
         <param.HardwareSizeFloat.Target />
         <param.HardwareSizeDouble.Target />
         <param.HardwareEndianness.Target />
-        <param.HardwareLongLongMode.Target />
         <param.HardwareAtomicIntegerSize.Target />
         <param.HardwareAtomicFloatSize.Target />
         <var.SuppressHardwareChange />
@@ -833,10 +837,8 @@
       </unset>
     </profile>
     <param.objective>option.objective.c</param.objective>
-    <param.WorkflowStep>entryPoints</param.WorkflowStep>
-    <param.TestSnippets>
-      <item>test_get_DH_matrix</item>
-    </param.TestSnippets>
+    <param.WorkflowStep>reviewIssues</param.WorkflowStep>
+    <param.TestSnippets />
     <param.ExternalFcnMajority />
     <param.UseGlobals>option.UseGlobals.No</param.UseGlobals>
     <param.outputfile>${PROJECT_ROOT}\codegen\lib\get_DH_matrix\get_DH_matrix.lib</param.outputfile>
@@ -854,22 +856,21 @@
     <param.AutoInferUnboundedSizeThreshold />
     <param.EnableFixedPointStep />
     <param.EnableScreener>true</param.EnableScreener>
-    <param.AnnotationChecksum>953492495</param.AnnotationChecksum>
+    <param.AnnotationChecksum />
     <var.LegacyTarget />
     <var.MirrorOnOpen>false</var.MirrorOnOpen>
     <param.FixedPointEnabled>false</param.FixedPointEnabled>
     <var.redirectedInputTypeData />
-    <var.DismissScreener>false</var.DismissScreener>
+    <var.DismissScreener>true</var.DismissScreener>
     <param.unifiedParamStorage />
-    <var.gc.lastOutputRoot>codegen\lib\get_DH_matrix</var.gc.lastOutputRoot>
-    <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>1936652599</var.gc.preBuildChecksum>
-    <var.cfi.lastOutputRoot>codegen\mex\get_DH_matrix</var.cfi.lastOutputRoot>
-    <var.cfi.preBuildChecksum>3464108610</var.cfi.preBuildChecksum>
-    <var.lastCfiTestSnippet>test_get_DH_matrix</var.lastCfiTestSnippet>
+    <var.gc.lastOutputRoot />
+    <var.gc.lastOutputType />
+    <var.gc.preBuildChecksum />
+    <var.cfi.lastOutputRoot />
+    <var.cfi.preBuildChecksum />
     <var.outdatedOnRestore />
-    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\get_DH_matrix.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;2564299730&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
-    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\get_DH_matrix.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
+    <var.lastUserSourceChecksum />
+    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\get_DH_matrix.m&lt;/file&gt;&lt;file&gt;C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\solve_DH_parm.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.NoDefaultJIT />
     <param.configImportActive>false</param.configImportActive>
@@ -962,6 +963,7 @@
     <param.FixedPointUseDesignRanges />
     <unset>
       <param.objective />
+      <param.TestSnippets />
       <param.ExternalFcnMajority />
       <param.UseGlobals />
       <param.outputfile />
@@ -979,13 +981,19 @@
       <param.AutoInferUnboundedSizeThreshold />
       <param.EnableFixedPointStep />
       <param.EnableScreener />
+      <param.AnnotationChecksum />
       <var.LegacyTarget />
       <var.MirrorOnOpen />
       <param.FixedPointEnabled />
       <var.redirectedInputTypeData />
-      <var.DismissScreener />
       <param.unifiedParamStorage />
+      <var.gc.lastOutputRoot />
+      <var.gc.lastOutputType />
+      <var.gc.preBuildChecksum />
+      <var.cfi.lastOutputRoot />
+      <var.cfi.preBuildChecksum />
       <var.outdatedOnRestore />
+      <var.lastUserSourceChecksum />
       <param.forceMexBuild />
       <param.NoDefaultJIT />
       <param.configImportActive />
@@ -1074,33 +1082,13 @@
       <param.FixedPointUseDesignRanges />
     </unset>
     <fileset.entrypoints>
-      <file custom-data-expanded="false" value="${PROJECT_ROOT}\get_DH_matrix.m">
-        <Marker>1620794354195</Marker>
-      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\get_DH_matrix.m" />
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\solve_DH_parm.m" />
     </fileset.entrypoints>
-    <fileset.testbench>
-      <file>${PROJECT_ROOT}\test_get_DH_matrix.m</file>
-    </fileset.testbench>
+    <fileset.testbench />
     <fileset.inputtypes>
-      <file custom-data-expanded="false" value="${PROJECT_ROOT}\get_DH_matrix.m">
-        <Inputs fileName="get_DH_matrix.m" functionName="get_DH_matrix">
-          <Input Name="alpha" typeId="0" />
-          <Input Name="a" typeId="0" />
-          <Input Name="d" typeId="0" />
-          <Input Name="theta" typeId="0" />
-          <idpTable>
-            <type typeId="0">
-              <Class>double</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Complex>false</Complex>
-              <Sparse>false</Sparse>
-            </type>
-          </idpTable>
-        </Inputs>
-      </file>
+      <file>${PROJECT_ROOT}\get_DH_matrix.m</file>
+      <file>${PROJECT_ROOT}\solve_DH_parm.m</file>
     </fileset.inputtypes>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\codegen\lib\get_DH_matrix" name="get_DH_matrix.lib" optional="false">C:\Users\Harry\Desktop\MCU_homework\Dog\Dog_STD\Kinematics\codegen\lib\get_DH_matrix\get_DH_matrix.lib</file>
